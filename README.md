@@ -1,5 +1,3 @@
-# API-Teste-automatizado
-
 ## Teste de API automatizado utilizando Java, RestAssured e JUnit
 Este repositório contém exemplos de testes automatizados para uma API utilizando as ferramentas Java, RestAssured e JUnit. Esses testes são executados de forma automatizada para garantir que a API esteja funcionando corretamente e atendendo aos requisitos especificados.
 
@@ -19,7 +17,7 @@ mvn clean install
 ## Execute o seguinte comando para rodar todos os testes:
 mvn test
 
-##Para executar testes específicos, utilize o seguinte comando:
+## Para executar testes específicos, utilize o seguinte comando:
 mvn -Dtest=NomeDaClasseDeTeste test
 
 ## Estrutura do projeto
