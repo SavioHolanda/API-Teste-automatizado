@@ -7,7 +7,7 @@ Maven 3.0 ou superior instalado
 InteliJ IDE ou uma IDE de sua escolha  
 
 ## Instalação
-*Clone o repositório:*  
+_Clone o repositório:_  
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 ## Execute o seguinte comando para instalar as dependências:
