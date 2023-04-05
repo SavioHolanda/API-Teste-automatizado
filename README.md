@@ -23,8 +23,7 @@ mvn test
 mvn -Dtest=NomeDaClasseDeTeste test
 
 ## Estrutura do projeto
-├── src
-
+├── src  
 │   ├── main
 
 │   │   ├── java
