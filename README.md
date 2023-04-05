@@ -8,34 +8,29 @@ InteliJ IDE ou uma IDE de sua escolha
 
 ## Instalação
 **Clone o repositório:**  
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-
-## Execute o seguinte comando para instalar as dependências:
-mvn clean install
-
-## Como executar os testes
-## Execute o seguinte comando para rodar todos os testes:
-mvn test
-
-## Para executar testes específicos, utilize o seguinte comando:
-mvn -Dtest=NomeDaClasseDeTeste test
+git clone https://github.com/SavioHolanda/API-Teste-automatizado.git
 
 ## Estrutura do projeto
 ├── src  
 │   ├── main  
 │   │   ├── java  
-│   │   │   └── nome.do.pacote  
-│   │   │       ├── models  
-│   │   │       └── services  
 │   │   └── resources  
 │   └── test  
-│       ├── java  
-│       │   └── nome.do.pacote  
-│       │       └── api  
-│       │           ├── NomeDaClasseDeTeste1.java  
-│       │           └── NomeDaClasseDeTeste2.java  
-│       └── resources  
-├── .gitignore  
+│       └── java  
+│          ├── dataFactory  
+│          |    └── ProdutoDataFactory  
+│          |    └── UsuarioDataFactory  
+│          ├── modulos  
+|          |    ├── produto  
+|          |    |      └── java  
+|          |    |            └── ProdutoTest  
+|          |    └── usuario  
+|          └── pojo  
+|               └── modulos  
+|                      ├── ComponentePojo  
+|                      ├── ProdutoPojo  
+|                      └── UsuarioPojo  
+├── lojinha-v2(swagger).yml  
 ├── pom.xml  
 └── README.md  
 
