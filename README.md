@@ -24,38 +24,22 @@ mvn -Dtest=NomeDaClasseDeTeste test
 
 ## Estrutura do projeto
 ├── src  
-│   ├── main
-
-│   │   ├── java
-
-│   │   │   └── nome.do.pacote
-
-│   │   │       ├── models
-
-│   │   │       └── services
-
-│   │   └── resources
-
-│   └── test
-
-│       ├── java
-
-│       │   └── nome.do.pacote
-
-│       │       └── api
-
-│       │           ├── NomeDaClasseDeTeste1.java
-
-│       │           └── NomeDaClasseDeTeste2.java
-
-│       └── resources
-
-├── .gitignore
-
-├── pom.xml
-
-└── README.md
-
+│   ├── main  
+│   │   ├── java  
+│   │   │   └── nome.do.pacote  
+│   │   │       ├── models  
+│   │   │       └── services  
+│   │   └── resources  
+│   └── test  
+│       ├── java  
+│       │   └── nome.do.pacote  
+│       │       └── api  
+│       │           ├── NomeDaClasseDeTeste1.java  
+│       │           └── NomeDaClasseDeTeste2.java  
+│       └── resources  
+├── .gitignore  
+├── pom.xml  
+└── README.md  
 
 src/main/java: contém as classes principais da aplicação, incluindo os modelos de dados e serviços para consumir a API.
 
